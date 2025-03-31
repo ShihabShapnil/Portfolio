@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Monocraft";
+  src: url("Font/Monocraft.ttf") format("ttf");
+}
+
+main {
+  display: flex;
+  font-family: Monocraft;
+}
+
+body {
+  display: flex;
+  background-color: #f8e5bf;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15%;
+}
+
+#pixel-me {
+  max-width: 40%;
+}
+
+#pixel-label {
+  font-size: 125%;
+}
